@@ -4,7 +4,7 @@ var pingpong = function (inputN) {
   for (i = 0; i < inputN; i++) {
     arrayOfN [i] = i + 1;
   }
-// debugger;
+  
   for  (var i = 0; i < arrayOfN.length; i++) {
     if (arrayOfN [i] % 15 === 0){
       arrayOfN [i] = "pingpong";
