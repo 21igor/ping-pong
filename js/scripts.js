@@ -23,11 +23,12 @@ $(document).ready(function() {
 
     function write_letters(){
       for (i = 0; i < arrayOfN.length; i++ ) {
-        myElement = document.createElement("LI");
+        myElement = document.createElement("li");
         myElement.innerHTML = arrayOfN[indexNum++];
         unorderedList.appendChild(myElement);
       }
     }
     write_letters();
+    $(".result").show();
   });
 });

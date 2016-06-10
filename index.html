@@ -32,34 +32,28 @@
     <div class="background-1">
       <div id="start" class="container container-1">
         <div class="flex">
-          <div class="col-md-9">
-            <h1>Welcome to the PING - PONG play!</h1>
-            <h2>Rules:</h2>
-            <p>Ping-pong will count up to your number from 1 with the following exceptions:</p>
-              <ol>
-                <li>Numbers divisible by 3 become "ping"</li>
-                <li>Numbers divisible by 5 become "pong"</li>
-                <li>Numbers divisible by 15 become "pingpong"</li>
-              </ol>
-          </div>
-          <div class="col-md-3">
-            <form id="inputForm">
-              <div class="form-group">
-                <label for="inputNumber">Enter your number here: </label>
-                <input id="inputNumber" class="form-control" type="number">
-                <button id="button" type="submit" class="btn">PLAY !</button>
-              </form>
+          <h1>Welcome to the PING-PONG play!</h1>
+          <h3>Rules:</h3>
+          <h4>Ping-pong will count up to your number from 1 with the following exceptions:</h4>
+            <ol>
+              <li>Numbers divisible by 3 become "ping"</li>
+              <li>Numbers divisible by 5 become "pong"</li>
+              <li>Numbers divisible by 15 become "pingpong"</li>
+            </ol>
+          <form id="inputForm">
+            <div class="form-group">
+              <label for="inputNumber">Enter your number here: </label>
+              <input id="inputNumber" class="form-control" type="number">
+              <button id="button" type="submit" class="btn">PLAY !</button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
-      <section id="result" class="container">
-        <div id="" class="">
-          <h2>Look at this!<span class="name"></span>!</h2>
-        </div>
-      </section>
-
     </div>
-    <ul id="listOfNumbers"></ul>
+    <div class="result">
+      <h3>Look at this!</h3>
+      <ul id="listOfNumbers"></ul>
+    </div>
+
   </body>
 </html>

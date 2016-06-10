@@ -1,1 +1,45 @@
-/*This file is for your custom css.  All yours*/
+.result {
+  display: none;
+}
+
+html, body {
+  height: 70%;
+}
+
+.container-1 {
+  display: flex;
+  height: 100%;
+}
+
+.flex {
+  text-align: center;
+  margin:auto;
+  color: #fff;
+  z-index: 101;
+}
+h3,h4,li {
+  text-align: left;
+}
+
+form{
+  margin:auto;
+  max-width: 150px;
+}
+button {
+  margin-top: .5em;
+}
+
+.background-1 {
+  background-color: grey;
+  /*background-image: url("../img/bg1.jpg");*/
+  height: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+label {
+  font-size: 1.3em;
+  color: fff;
+}
