@@ -18,7 +18,7 @@ $(document).ready(function() {
       }
     }
     var indexNum = 0;
-    var unorderedList = document.getElementById('itemList');
+    var unorderedList = document.getElementById("listOfNumbers");
     var myElement;
 
     function write_letters(){
