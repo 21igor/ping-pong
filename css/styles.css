@@ -1,9 +1,11 @@
-.result {
+/*.result {
   display: none;
-}
+}*/
+
 
 html, body {
   height: 70%;
+  background-color: grey;
 }
 
 .container-1 {
@@ -23,15 +25,14 @@ h3,h4,li {
 
 form{
   margin:auto;
-  max-width: 150px;
+  max-width: 200px;
 }
 button {
   margin-top: .5em;
 }
 
 .background-1 {
-  background-color: grey;
-  /*background-image: url("../img/bg1.jpg");*/
+  background-image: url("../img/bg4.jpg");
   height: 100%;
   position: relative;
   background-repeat: no-repeat;
@@ -42,4 +43,8 @@ button {
 label {
   font-size: 1.3em;
   color: fff;
+}
+
+.background-2 {
+  background-color: ffa;
 }
